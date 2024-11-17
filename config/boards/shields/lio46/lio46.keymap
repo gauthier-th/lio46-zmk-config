@@ -14,11 +14,11 @@
 //              | LWIN|LCTRL|LSHFT| ENT | ? |        | ? | SPC | LOW |LARW |DARW |
 
                         bindings = <
-&kp BT_CLR_ALL  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5   &kp T            &kp T &kp N6     &kp N7  &kp N8     &kp N9    &kp N0    &kp BSPC
-&kp TAB         &kp BT_CLR_ALL &kp W     &kp E      &kp R      &kp T    &kp T            &kp T &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp H           &kp N1         &kp N2    &kp N3     &kp N4     &kp N5   &kp T            &kp T &kp N6     &kp N7  &kp N8     &kp N9    &kp N0    &kp BSPC
+&kp TAB         &kp H          &kp W     &kp E      &kp R      &kp T    &kp T            &kp T &kp Y      &kp U   &kp I      &kp O     &kp P     &kp BSLH
 &kp CAPS        &kp A          &kp S     &kp D      &kp F      &kp G    &kp T            &kp T &kp H      &kp J   &kp K      &kp L     &kp SEMI  &kp RET
 &kp LSHFT       &kp Z          &kp X     &kp C      &kp V      &kp B    &kp T            &kp T &kp N      &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
-&kp LCTRL       &kp LALT       &kp LGUI  &kp SPACE  &kp LALT   &kp LGUI &kp T            &kp T &kp SPACE  &mo 1   &kp LARW   &kp DARW  &kp UARW  &kp RARW
+&kp Z           &kp Z          &kp X  &kp SPACE     &kp V      &kp B    &kp T            &kp T &kp SPACE  &mo 1   &kp LARW   &kp DARW  &kp UARW  &kp RARW
                         >;
                 };
         };
