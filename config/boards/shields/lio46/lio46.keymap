@@ -21,7 +21,7 @@
                 &kp LCTRL       &kp LALT       &kp LGUI  &kp SPACE  &kp LALT   &kp LGUI &kp T            &kp T &kp SPACE  &mo 1   &kp LARW   &kp DARW  &kp UARW  &kp RARW
             >;
         };
-        sym_layer {
+        lower_layer {
             // ------------------------------------------------------------------------------------------------------------
             // |       |  BT1  |  BT2  |  BT3  |  BT4  |  BT5  |          |       |       |       |       |       | BTCLR |
             // |       |       |       |       |       |       |          |       |       |       |       |       |       |
