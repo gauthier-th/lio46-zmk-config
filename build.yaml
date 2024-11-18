@@ -22,3 +22,5 @@ include:
     shield: lio46_left
   - board: nice_nano_v2
     shield: lio46_right
+  - board: nice_nano_v2
+    shield: settings_reset
