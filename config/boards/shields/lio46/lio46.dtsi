@@ -2,17 +2,17 @@
 #include <lio46-layout.dtsi>
 
 
-&lio46_physial_layout {
-    transform = <&default_transform>;
+&physical_layout0 {
+    transform = <&matrix_transform0>;
 };
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &lio46_physial_layout;
+        zmk,physical-layout = &physical_layout0;
     };
 
-    default_transform: keymap_transform_0 {
+    matrix_transform0: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <14>;
         rows = <4>;

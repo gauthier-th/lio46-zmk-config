@@ -1,9 +1,10 @@
 #include <physical_layouts.dtsi>
 
+
 / {
-    lio46_physial_layout: lio46_physical_layout {
+    physical_layout0: physical_layout0 {
         compatible = "zmk,physical-layout";
-        display-name = "Lio46";
+        display-name = "Default";
         // transform = <&default_transform>;
         // kscan = <&kscan0>;
 
