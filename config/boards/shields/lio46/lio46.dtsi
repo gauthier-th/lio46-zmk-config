@@ -1,5 +1,4 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "lio46-layout.dtsi"
 
 
 &physical_layout0 {
