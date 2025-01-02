@@ -1,8 +1,13 @@
-file_format: "1"
 id: lio46
 name: Lio46
 type: shield
 url: https://github.com/Liolaeus/lio46
+requires: [nice_nano_v2]
+exposes: [i2c_oled]
 features:
   - keys
   - studio
+  - display
+siblings:
+  - lio46_left
+  - lio46_right
