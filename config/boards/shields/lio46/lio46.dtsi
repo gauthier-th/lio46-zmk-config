@@ -40,14 +40,16 @@
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 0, 20)>
                   , <NRF_PSEL(SPIM_MOSI, 0, 17)>
-                  , <NRF_PSEL(SPIM_MISO, 0, 22)>;
+                  , <NRF_PSEL(SPIM_MISO, 0, 22)>
+                ;
         };
     };
     spi0_sleep: spi0_sleep {
         group1 {
             psels = <NRF_PSEL(SPIM_SCK, 0, 20)>
                   , <NRF_PSEL(SPIM_MOSI, 0, 17)>
-                  , <NRF_PSEL(SPIM_MISO, 0, 22)>;
+                  , <NRF_PSEL(SPIM_MISO, 0, 22)>
+                ;
             low-power-enable;
         };
     };
@@ -62,6 +64,8 @@ nice_view_spi: &spi0 {
     cs-gpios = <&pro_micro 4 GPIO_ACTIVE_HIGH>;
 };
 
-&pro_micro_i2c {
-    status = "disabled";
+/ {
+    chosen {
+        zephyr,display = &nice_view;
+    };
 };
